@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.bg-img {
+    background-image: url("https://images.pexels.com/photos/1804035/pexels-photo-1804035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.bg-contact-img {
+    background-image: url("https://images.everydayhealth.com/images/hydration-calculator-how-much-water-to-drink-per-day-1440x810.jpg?sfvrsn=53eeb391_1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-home-img {
+    background-image: url("https://ade.group/wp-content/uploads/2021/04/Water-Sampling-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+.home-content p {
+    line-height: 1.5;
+}
+
+.home-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-content .home-content-image {
+    width: 225px;
+    aspect-ratio: 3/5;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.border-box {
+    box-sizing: border-box !important;
+}
+
+.text-system {
+    font-family: 'Josefin Sans', sans-serif !important;
+}

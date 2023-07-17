@@ -1,0 +1,26 @@
+<div class="vh-100 bg-contact-img">
+    <div class="container d-flex justify-content-lg-end justify-content-sm-center align-items-center h-100">
+        <form class="card p-3 text-system" (ngSubmit)="Submit(Form)" #Form="ngForm">
+            <h2 class="text-center text-system">Contact Us</h2>
+            <div class="alert my-1" *ngIf="Msg" [ngClass]="{'alert-success':Success,'alert-danger':err}">{{Msg}}</div>
+            <div class="form-input">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control border-box my-2" ngModel name="Name" #Name id="Name"
+                    placeholder="Name">
+            </div>
+            <div class="form-input">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control border-box my-2" ngModel name="Email" #Email id="Email"
+                    placeholder="Email">
+            </div>
+            <div class="form-input">
+                <label for="Message" class="form-label">Message</label>
+                <textarea class="form-control border-box my-2" ngModel name="Msg" #Message id="Message"
+                    placeholder="Message"></textarea>
+            </div>
+            <div class="form-input">
+                <input type="submit" value="Submit" class="btn btn-dark d-block mx-auto">
+            </div>
+        </form>
+    </div>
+</div>
